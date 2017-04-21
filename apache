@@ -1,0 +1,9 @@
+symbolic link :
+	ln -s location1 location2
+apache server start:
+	sudo service apache2 start
+apache server log:
+	tail -f /var/log/apache2/error.log
+permision denied last command:
+	sudo !!
+	
